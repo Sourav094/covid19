@@ -1,5 +1,6 @@
 #!/bin/bash
-cd /home/ubuntu/server
-rm -rf build
-cd /home/ubuntu/src
-yarn build
+npm start
+pm2 start npm --name "covidapp" -- start
+pm2 startup
+pm2 save
+pm2 restart all
