@@ -6,7 +6,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ubuntu/server
+    destination: /home/ubuntu
 
 permissions:
   - object: /
@@ -34,5 +34,3 @@ hooks:
     - location: scripts/app_start.sh
       timeout: 300
       runas: root
-
-
