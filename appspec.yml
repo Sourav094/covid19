@@ -6,8 +6,12 @@ os: linux
 
 files:
   - source: /
+<<<<<<< HEAD
     destination: /home/ubuntu
 
+=======
+    destination: /home/ubuntu/server
+>>>>>>> 7f01989b5691623ccb51f602180d952f2ad01d75
 permissions:
   - object: /
     pattern: "**"
